@@ -1,0 +1,42 @@
+.root{
+    width: 37.5rem;
+    margin: auto;
+    margin-top: 10rem;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    }
+
+.root h3{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.root input{
+    width: 80%;
+    height: 5rem;
+    padding: 1rem;
+    font-size: 1.8rem
+}
+
+.lista_items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    gap: 1rem;
+}
+
+.item{
+    width:100%;
+    height: 8rem;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
